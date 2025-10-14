@@ -1,5 +1,5 @@
 /* --- Global Styles & Variables --- */
-.root {
+:root {
     --primary-color: #3f51b5; /* Indigo - Main brand color */
     --accent-color: #ff4081;  /* Pink - For colorful buttons */
     --text-color: #333;
@@ -370,3 +370,4 @@ footer {
     }
 
 }
+
