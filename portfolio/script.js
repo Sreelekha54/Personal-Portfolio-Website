@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // **ACTION NEEDED:**
             // Ensure you save your resume PDF file as 'SreeLekha_Resume.pdf' 
             // in the same folder as this code.
-            const resumePath = '"C:\Users\Dell\Documents\SreeLekha_Resume.pdf.pdf"'; 
+            const resumePath = '"C:\Users\Dell\Documents\SreeLekha_Resume.pdf"'; 
             
             const link = document.createElement('a');
             link.href = resumePath;
@@ -35,4 +35,5 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Attempting to download resume from: ' + resumePath);
         });
     }
+
 });
